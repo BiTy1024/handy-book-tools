@@ -9,6 +9,13 @@ const tools = [
     href: '/tools/pdf-anschnitt',
     local: true,
   },
+  {
+    icon: '📐',
+    title: 'Buchcover-Rückenrechner',
+    description: 'Berechne die Rückenbreite anhand von Seiten, Grammatur und Papiervolumen.',
+    href: '/tools/rueckenrechner',
+    local: true,
+  },
 ]
 
 export default function Tools() {

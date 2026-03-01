@@ -9,6 +9,7 @@ import Datenschutz from './pages/Datenschutz'
 import AGB from './pages/AGB'
 import Cookies from './pages/Cookies'
 import BleedTool from './pages/tools/BleedTool'
+import SpineCalculator from './pages/tools/SpineCalculator'
 import './App.css'
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/agb" element={<AGB />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/tools/pdf-anschnitt" element={<BleedTool />} />
+          <Route path="/tools/rueckenrechner" element={<SpineCalculator />} />
         </Routes>
         <Footer />
       </div>
