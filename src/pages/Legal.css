@@ -1,0 +1,50 @@
+.legal-page {
+  padding-top: 64px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+
+.legal-page h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #1a1a2e;
+  margin: 3rem 0 0.5rem;
+}
+
+.legal-page .subtitle {
+  color: #999;
+  font-size: 0.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.legal-page h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin: 2rem 0 0.5rem;
+}
+
+.legal-page p,
+.legal-page li {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.legal-page ul {
+  padding-left: 1.5rem;
+}
+
+.legal-page a {
+  color: #6c47ff;
+  text-decoration: none;
+}
+
+.legal-page a:hover {
+  text-decoration: underline;
+}
